@@ -1,0 +1,22 @@
+{
+  "name": "vue-stem",
+  "version": "0.1.0-beta.1",
+  "dependencies": {
+    "cac": "^6.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "typescript": "^4.2.4"
+  },
+  "engines": {
+    "node": ">=12.19.0"
+  },
+  "main": "./dist/index.js",
+  "bin": {
+    "stem": "bin/stem.js"
+  },
+  "description": "Scaffold Vue Applications",
+  "repository": "https://github.com/brillout/vue-stem",
+  "license": "MIT",
+  "keywords": ["vue", "vite"]
+}

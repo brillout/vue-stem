@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "========= Dev": "",
+    "// Develop vite-plugin-ssr": "",
+    "dev": "npm run tsc:watch",
+    "========= Build": "",
+    "// Build vite-plugin-ssr": "",
+    "build": "npm run clean:build && npm run tsc:once",
+    "========= TypeScript": "",
+    "tsc:once": "cd packages/vue-stem/ && tsc",
+    "tsc:watch": "cd packages/vue-stem/ && tsc --incremental --watch",
+    "========= Clean": "",
+    "// Remove caches": "",
+    "clean": "npm run clean:all",
+    "clean:all": "git clean -Xdf",
+    "clean:build": "rm -rf packages/vue-stem/dist/"
+  }
+}
