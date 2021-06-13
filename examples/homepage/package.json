@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "vue-stem": "link:../../packages/vue-stem/"
+  },
+  "scripts": {
+    "dev": "vue-stem dev",
+    "build": "vue-stem build"
+  }
+}
